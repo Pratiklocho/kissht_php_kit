@@ -1,0 +1,35 @@
+body{ background:#f7f7f7; margin:0px; padding:0px; font-size:14px; }
+.wrap{ width:100%; height:100%;}
+.mainformbox{ background: #fff; margin: 0px auto; padding: 10px 0; }
+.mainbox1 { clear: both; float: left; min-height: 400px; padding: 40px 50px; width: 100%; }
+.mainformbox h2 { font-size: 25px; line-height: 30px; margin: 0; padding: 15px 0; text-align:center;  background: #0068c4; color:#fff; width: 100%; }
+.labletext1 { font-size: 14px; line-height: 40px; padding-right: 15px; text-align: right; }
+.nametextbox { border: 1px solid #ccc; border-radius: 4px; height: 40px; line-height: 40px; padding: 0 10px; width: 100%; }
+.groupbox { padding: 10px 0; }
+.mobilenumber{ float: left; width: 234px; border-radius: 4px 0 0 4px; }
+.sendotpbtn { background: #025ec6; border-radius: 0; color: #fff; float: left; height: 40px;  border-radius: 0 4px 4px 0; }
+.sendotpbtn:hover{ color:#fff; background:#084998; }
+.selectbox select { background: #fff; border: 1px solid #ccc; border-radius: 4px !important; height: 40px; padding-left: 10px; width: 100%; }
+.netonline{ width:100%; padding:10px 0;}
+.netonline ul{ width:100%; margin:0px; padding:0px; list-style:none; }
+.netonline ul li { float: left; margin: 0; padding: 5px 10px; }
+.proceedbox { clear: both; padding: 20px 40px; width: 100%; }
+.btn.proceedbtn { background: #106EA8; color: #fff; height: 38px; text-transform: uppercase; width: 100%; }
+.fastbanklogobox{ border-top: 1px solid #ccc; font-size: 14px; line-height: 24px; padding: 36px 50px 0 10px; text-align: right; width: 100%;  }
+.fastbanklogobox1{ border-bottom:1px solid #ccc; padding:10px 50px 21px;}
+.fastbanklogobox > img { margin-top: -29px; }
+
+@media (min-width: 320px) and (max-width: 568px) {
+	.labletext1{ text-align:left; }
+	.container{ font-size:18px; }
+	form#fc_usermerchant { float: left !important; width: 100% !important; }
+	.mainbox1{ padding:20px 20px}
+	.footerlogopowered img{  margin-top: -19px; }	
+}
+@media (min-width: 569px) and (max-width: 1024px) {
+	.labletext1{ text-align:left; }
+	.container{ font-size:18px; }
+	form#fc_usermerchant { float: left !important; width: 100% !important; }
+	.mainbox1{ padding:20px 20px}
+	
+}
